@@ -9,7 +9,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <ParticlesBg num={300} type="lines" bg />
+      <ParticlesBg num={80} type="lines" bg />
       <Navigation />
       <Logo />
       <Rank />
