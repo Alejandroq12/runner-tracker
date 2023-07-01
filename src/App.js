@@ -60,7 +60,7 @@ class App extends Component {
       returnClarifaiRequestOptions(this.state.input)
     )
       .then((response) => response.json())
-      .then((data) => console.log(data));
+      .catch((error) => console.error('Error:', error));
   };
 
   render() {
