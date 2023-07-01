@@ -23,7 +23,7 @@ class App extends Component {
   onButtonSubmit = () => {
     this.setState({ imageUrl: this.state.input });
     // URL of image to use. Change this to your image.
-    const IMAGE_URL = 'https://samples.clarifai.com/metro-north.jpg';
+    const IMAGE_URL = this.state.input;
 
     const raw = JSON.stringify({
       user_app_id: {
