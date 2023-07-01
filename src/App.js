@@ -1,5 +1,6 @@
 import { Component } from 'react';
 import Navigation from './components/navigation/Navigation';
+import FaceRecognition from './components/faceRecognition/FaceRecognition';
 import Logo from './components/logo/Logo';
 import ImageLinkForm from './components/imageLinkForm/ImageLinkForm';
 import Rank from './components/rank/Rank';
@@ -71,7 +72,7 @@ class App extends Component {
           onInputChange={this.onInputChange}
           onButtonSubmit={this.onButtonSubmit}
         />
-        {/* <FaceRecognition /> */}
+        <FaceRecognition />
       </div>
     );
   }
