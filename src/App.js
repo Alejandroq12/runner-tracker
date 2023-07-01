@@ -1,25 +1,35 @@
-import logo from './logo.svg';
+import { Component } from 'react';
+import Navigation from './components/navigation/Navigation';
+import Logo from './components/logo/Logo';
+import ImageLinkForm from './components/imageLinkForm/ImageLinkForm';
+import Rank from './components/rank/Rank';
+import ParticlesBg from 'particles-bg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      input: '',
+    };
+  }
+
+  onInputChange = (event) => {
+    console.log(event);
+  };
+
+  render() {
+    return (
+      <div className="App">
+        <ParticlesBg num={80} type="lines" bg />
+        <Navigation />
+        <Logo />
+        <Rank />
+        <ImageLinkForm onInputChange={this.onInputChange} />
+        {/* <FaceRecognition /> */}
+      </div>
+    );
+  }
 }
 
 export default App;
