@@ -3,7 +3,7 @@ import './ImageLinkForm.css';
 const ImageLinkForm = () => {
   return (
     <div>
-      <p className="f3">
+      <p className="f3 white">
         {' '}
         {
           'This Smart Recognition App will detect faces in your pictures. Give it a try.'
