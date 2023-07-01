@@ -3,7 +3,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-    <img src="./public/logo.png" alt="logo" width="550"  height="auto" />
+    <img src="./public/logo.png" alt="logo" width="750"  height="auto" />
   <br/>
   <h3><b>Smart Recognition</b></h3>
 
@@ -103,7 +103,6 @@ It will be available soon!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
@@ -121,13 +120,13 @@ In order to run this project you need:
 Clone this repository to your desired folder or download the Zip folder:
 
 ```
-https://github.com/Alejandroq12/bookstore.git
+https://github.com/Alejandroq12/smart-recognition.git
 
 ```
 
 - Navigate to the location of the folder in your machine:
 
-**``you@your-Pc-name:~$ cd bookstore``**
+**``you@your-Pc-name:~$ cd smart-recognition``**
 
 ### Install
 
@@ -159,8 +158,8 @@ npx eslint "**/*.{js,jsx}"
 
 ### Deployment <a name="deployment"></a>
 
-You can deploy this project using: GitHub Pages,
-- I used Netlify Pages to deploy my website.
+You can deploy this project using: Netlify, Render, or GitHub Pages,
+- I will use Netlify to deploy my website.
 - For more information about deployment on Netlify see "[Netlify](https://www.netlify.com/)".
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -181,8 +180,8 @@ You can deploy this project using: GitHub Pages,
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **I will create a responsive website.**
-- [ ] **Fetch data from API.**
+- [ ] **I will add the backend.**
+- [ ] **I will fetch data from API.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -216,9 +215,9 @@ I want to thank all my colleagues that share knowledge with and inspired to to i
 
 ## ❓ FAQ <a name="faq"></a>
 
-- **Did you created this project from zero?**
+- **What did you learned?**
 
-  - Of course, as if it were a real life job scenario.
+  - I learned how to use Tachyons, how to set up an API and how to build a full stack web application.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
