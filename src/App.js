@@ -46,7 +46,12 @@ class App extends Component {
     this.state = {
       input: '',
       imageUrl: '',
+      box: {},
     };
+  }
+
+  calculateFaceLocation = (data) => {
+    const clarifaiFace = data.outputs[0].data.regions[0].region_info.bounding_box;
   }
 
   onInputChange = (event) => {
@@ -59,8 +64,11 @@ class App extends Component {
       `https://api.clarifai.com/v2/models/face-detection/versions/6dc7e46bc9124c5c8824be4822abe105/outputs`,
       returnClarifaiRequestOptions(this.state.input)
     )
-      .then((response) => response.json())
-      .catch((error) => console.error('Error:', error));
+      .then(response => response.json())
+      .then(data => {
+        this.calculateFaceLocation(data);
+    })
+    .catch((error) => console.error('Error:', error));
   };
 
   render() {
