@@ -1,5 +1,6 @@
 import { Component } from 'react';
 import Navigation from './components/navigation/Navigation';
+import Signin from './components/signin/Signin';
 import FaceRecognition from './components/faceRecognition/FaceRecognition';
 import Logo from './components/logo/Logo';
 import ImageLinkForm from './components/imageLinkForm/ImageLinkForm';
@@ -91,6 +92,7 @@ class App extends Component {
       <div className="App">
         <ParticlesBg num={80} type="lines" bg />
         <Navigation />
+        <Signin />
         <Logo />
         <Rank />
         <ImageLinkForm
