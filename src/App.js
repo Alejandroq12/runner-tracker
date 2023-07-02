@@ -90,7 +90,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <ParticlesBg num={80} type="lines" bg />
+        <ParticlesBg num={10} type="square" bg/>
         <Navigation />
         <Signin />
         <Logo />
