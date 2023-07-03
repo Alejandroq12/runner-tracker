@@ -3,7 +3,9 @@
 <a name="readme-top"></a>
 
 <div align="center">
-    <img src="./public/logo.png" alt="logo" width="750"  height="auto" />
+    <img src="./public/logo1.png" alt="logo" width="750"  height="auto" />
+    <img src="./public/logo2.png" alt="logo" width="750"  height="auto" />
+    <img src="./public/logo3.png" alt="logo" width="750"  height="auto" />
   <br/>
   <h3><b>Smart Recognition</b></h3>
 
