@@ -56,8 +56,8 @@ class App extends Component {
 
   componentDidMount() {
     fetch('http://localhost:3003/')
-    .then(response => response.json())
-    .then(console.log)
+      .then((response) => response.json())
+      .then(console.log);
   }
 
   calculateFaceLocation = (data) => {
@@ -121,10 +121,7 @@ class App extends Component {
               onInputChange={this.onInputChange}
               onButtonSubmit={this.onButtonSubmit}
             />
-            <FaceRecognition
-              box={box}
-              imageUrl={imageUrl}
-            />
+            <FaceRecognition box={box} imageUrl={imageUrl} />
           </div>
         ) : route === 'signin' ? (
           <Signin onRouteChange={this.onRouteChange} />
