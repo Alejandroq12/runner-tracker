@@ -61,6 +61,18 @@ class App extends Component {
     };
   }
 
+  loadUser = (data) => {
+    this.setState({
+      user: {
+        id: data.id,
+        name: '',
+        email: data.name,
+        entries: data.entries,
+        joined: data.joined,
+      },
+    });
+  };
+
   componentDidMount() {
     fetch('http://localhost:3003/')
       .then((response) => response.json())
