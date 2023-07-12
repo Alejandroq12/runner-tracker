@@ -112,8 +112,9 @@ class App extends Component {
         if (response) {
           fetch('http://localhost:3003/image', {
             method: 'put',
-          })
+            headers: { 'Content-type': 'application/json' },
 
+          });
         }
         this.displayFaceBox(this.calculateFaceLocation(data));
       })
