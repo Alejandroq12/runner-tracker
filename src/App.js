@@ -109,6 +109,9 @@ class App extends Component {
     )
       .then((response) => response.json())
       .then((data) => {
+        if (response) {
+          fetch('http://localhost:3003/image')
+        }
         this.displayFaceBox(this.calculateFaceLocation(data));
       })
       .catch((error) => console.error('Error:', error));
