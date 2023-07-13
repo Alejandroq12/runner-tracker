@@ -114,7 +114,6 @@ class App extends Component {
             headers: { 'Content-type': 'application/json' },
             body: JSON.stringify({
               id: this.state.user.id,
-              password: this.state.user.password,
             }),
           })
             .then((response) => response.json())
