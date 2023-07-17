@@ -119,7 +119,7 @@ class App extends Component {
             .then((response) => response.json())
             .then((count) => {
               this.setState({
-                users: {
+                user: {
                   entries: count,
                 },
               });
