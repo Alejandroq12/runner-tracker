@@ -66,7 +66,7 @@ class App extends Component {
       user: {
         id: data.id,
         name: data.name,
-        email: data.name,
+        email: data.email,
         entries: data.entries,
         joined: data.joined,
       },
@@ -76,7 +76,6 @@ class App extends Component {
   componentDidMount() {
     fetch('http://localhost:3003/')
       .then((response) => response.json())
-      .then(console.log);
   }
 
   calculateFaceLocation = (data) => {
