@@ -1,23 +1,23 @@
-# Smart Recognition
+# Runner Tracker
 
 <a name="readme-top"></a>
 
 <div align="center">
-    <img src="./public/logo1.png" alt="logo" width="750"  height="auto" />
+    <img src="./public/logo.png" alt="logo" width="750"  height="auto" />
     <img src="./public/logo2.png" alt="logo" width="750"  height="auto" />
     <img src="./public/logo3.png" alt="logo" width="750"  height="auto" />
   <br/>
-  <h3><b>Smart Recognition</b></h3>
+  <h3><b>Runner Tracker</b></h3>
 
-</div>
+</div>4
 
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
-- [Smart Recognition](#smart-recognition)
+- [Runner Tracker](#runner-tracker)
 - [📗 Table of Contents](#-table-of-contents)
-- [Smart Recognition ](#smart-recognition-)
+- [Runner Tracker ](#runner-tracker-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Feature ](#key-feature-)
@@ -39,9 +39,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# Smart Recognition <a name="about-project"></a>
+# Runner Tracker <a name="about-project"></a>
 
-This full-stack application will be able to detect faces in images.
+This full-stack application will be able to store the time and length of a runner activity.
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -88,7 +88,7 @@ React.js
 
 ### Key Feature <a name="key-features"></a>
 
-- **Identify faces based on a trained model.**
+- **Keep data stored in a database.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,13 +122,13 @@ In order to run this project you need:
 Clone this repository to your desired folder or download the Zip folder:
 
 ```
-https://github.com/Alejandroq12/smart-recognition.git
+https://github.com/Alejandroq12/runner-tracker.git
 
 ```
 
 - Navigate to the location of the folder in your machine:
 
-**``you@your-Pc-name:~$ cd smart-recognition``**
+**``you@your-Pc-name:~$ cd runner-tracker``**
 
 ### Install
 
