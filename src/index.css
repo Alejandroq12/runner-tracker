@@ -1,11 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 body {
   margin: 0;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Pacifico', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(89deg, #a1969f 0%, #dedede 100%);
+  background: linear-gradient(89deg, #a1969f 0%, #ffabab 100%);
+  background-size: 200% 200%;
+  animation: BackgroundAnimation 10s infinite;
 }
 
 button {
   cursor: pointer;
+  font-family: 'Lobster', cursive;
+  font-size: 1.2em;
+  background-color: #ffabab;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #a1969f;
+  transform: scale(1.05);
+}
+
+@keyframes BackgroundAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
